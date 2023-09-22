@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Schedule Creator</Text>
+    <Description>Creates a schedule for each room department</Description>
+    <Assembly>RAI_M01_RA.dll</Assembly>
+    <FullClassName>RAI_M01_RA.Command1</FullClassName>
+    <ClientId>8B1284AC-6167-464D-B440-BE491BEBAFE2</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>RAI_M01_RA</Name>
+    <Assembly>RAI_M01_RA.dll</Assembly>
+    <FullClassName>RAI_M01_RA.App</FullClassName>
+    <ClientId>1E2449A1-5B0B-484C-9782-A2830DA1D2C0</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
